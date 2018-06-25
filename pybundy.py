@@ -1,8 +1,18 @@
+
+#! /usr/bin/python
+# File name: pybundy.py
+# Author: Joe Burton
+# Date created: 6/24/18
+# Date last modified: 6/24/18
+# Python Version: 3.6
+
 import json
 import os
 import sys
-import glob
+from colorama import init
 from css_html_js_minify import js_minify, css_minify
+
+init()
 
 #Creates function to output my error messages with color
 def error_output(error, data):
