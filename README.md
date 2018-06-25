@@ -1,12 +1,16 @@
-#Pybundy
-##A simple lightweight front end package bundler written in python
+# Pybundy
+
+## A simple lightweight front end package bundler written in python
+
 
 Why python? It's what made sense to me at the time and it seemed like it would be a fun project. I was getting frustrated with many of the bundlers I was working with as I just needed something simple, so I started working on this which became much more complicated, but has also been a lot of fun.
 
-##Dependencies
+## Dependencies
 [css-html-js-minify](https://pypi.org/project/css-html-js-minify/)
 
-##Configuration file: pybundy.config.json
+
+## Configuration file: pybundy.config.json
+
 ```
 {
 	"pybundy":{
