@@ -1,0 +1,27 @@
+{
+	"pybundy":{
+		"modules":[
+			"jquery",
+			"bootstrap"
+		],
+		"js":{
+			"path": "./app/js/",
+			"output": "./public/js/script.js",
+			"files": [
+				"example1.js",
+				"example2.js"
+			],
+			"force": [
+				"./node_modules/popper.js/dist/popper.min.js"
+			]
+		},
+		"css":{
+			"path": "./app/css/",
+			"output": "./public/css/styles.css",
+			"files": [
+				"example1.css",
+				"example2.css"
+			]
+		}
+	}
+}
