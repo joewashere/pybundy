@@ -16,8 +16,7 @@ Why python? It's what made sense to me at the time and it seemed like it would b
 	"pybundy":{
 		"modules":[
 			"bootstrap",
-			"jquery",
-			"popper.js"
+			"jquery"
 		],
 		"js":{
 			"path": "./app/js/",
